@@ -36,7 +36,10 @@ BoxImage:
     Orientation
     Everything's inside it
     You can also do grid layout where you set the columns at the beginning
-
+    FloatLayout lets you positoin and size your children
+        size_hint: (size hint) - They're percentages
+        position_hint: (position hint)
     """
 
 #"I know you guys care deeply about your images" - LaRose
+#"This one lets you lets you position and size your children" - LaRose
