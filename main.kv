@@ -1,17 +1,45 @@
 BoxLayout:
     orientation: "vertical"
 
-Label:
-    text: "Enter your name:"
+    Label:
+        text: "Enter your name:"
 
-TextInput:
-    id: user_input
-    multiline: False
+    TextInput:
+        id: user_input
+        multiline: False
 
-Button: 
-    text: "Greet"
-    on_press: output_label.text = "Hello, " + user_input.text
+    Button: 
+        text: "Greet"
+        hint_text: "Your name here" 
+        on_press: output_label.text = "Hello, " + user_input.text
 
-Label:
-    id: output_label
-    text: "Welcome"
+    Label:
+        id: output_label
+        text: "Welcome"
+    
+    CheckBox:
+        id: CheckBox
+        active: True
+    
+    Label: 
+        text: "Check me"
+    
+    Slider:
+        min: 0
+        max: 100
+        value: 50
+    
+    Switch:
+        id: Switch
+    
+    Label: 
+        text: "Toggle me"
+    
+    ProgressBar:
+        max: 100
+        value: 75
+    
+    Image:
+        source: "https://mail.google.com/mail/u/0/?ui=2&ik=a5ea05dce3&attid=0.1&permmsgid=msg-f:1817520404925166092&th=1939212dbb96b20c&view=fimg&disp=thd&attbid=ANGjdJ-nHmaWSvRgLJn3LKE4nnNfusWDvR0HFOlc1oStScY_u8xzOkoqjxv-I5TMy8ZcwYx037o2dVZvGDiEc00AbLLv0hCDIEcCebCO_y27VyNrFx_iwrkmymrSAB0&ats=2524608000000&sz=w2560-h1271"
+        alllow_stretch: True
+        keep_ratio: True
