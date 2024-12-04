@@ -35,7 +35,7 @@ Image:
 BoxImage:
     Orientation
     Everything's inside it
-    You can also do grid layout
+    You can also do grid layout where you set the columns at the beginning
 
     """
 
